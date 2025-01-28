@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibia Imbuement Materials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .table th {
+            background-color: #f4f4f4;
+        }
+        .copy-button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .copy-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function copyText(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Skopiowano: " + text);
+            }).catch(err => {
+                alert("Błąd kopiowania: " + err);
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Materiały do Imbuement w Tibii</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nazwa Imbuementu</th>
+                <th>Materiały</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Offensive Imbuements -->
+            <tr>
+                <td>Critical Hit</td>
+                <td>
+                    25× Sabretooth<br>
+                    20× Protective Charm<br>
+                    5× Vexclaw Talon
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Sabretooth')">Kopiuj Sabretooth</button><br>
+                    <button class="copy-button" onclick="copyText('Protective Charm')">Kopiuj Protective Charm</button><br>
+                    <button class="copy-button" onclick="copyText('Vexclaw Talon')">Kopiuj Vexclaw Talon</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Life Leech</td>
+                <td>
+                    25× Piece of Dead Brain<br>
+                    15× Bloody Pincers<br>
+                    5× Vampire Teeth
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Piece of Dead Brain')">Kopiuj Piece of Dead Brain</button><br>
+                    <button class="copy-button" onclick="copyText('Bloody Pincers')">Kopiuj Bloody Pincers</button><br>
+                    <button class="copy-button" onclick="copyText('Vampire Teeth')">Kopiuj Vampire Teeth</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Mana Leech</td>
+                <td>
+                    25× Rope Belt<br>
+                    15× Silencer Claw<br>
+                    5× Grimeleech Wing
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Rope Belt')">Kopiuj Rope Belt</button><br>
+                    <button class="copy-button" onclick="copyText('Silencer Claw')">Kopiuj Silencer Claw</button><br>
+                    <button class="copy-button" onclick="copyText('Grimeleech Wing')">Kopiuj Grimeleech Wing</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Magic Level</td>
+                <td>
+                    25× Rope Belt<br>
+                    15× Silencer Claw<br>
+                    5× Grimeleech Wing
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Rope Belt')">Kopiuj Rope Belt</button><br>
+                    <button class="copy-button" onclick="copyText('Silencer Claw')">Kopiuj Silencer Claw</button><br>
+                    <button class="copy-button" onclick="copyText('Grimeleech Wing')">Kopiuj Grimeleech Wing</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Capacity</td>
+                <td>
+                    20× Protective Charm<br>
+                    25× Metal Spike<br>
+                    5× Elven Hoof
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Protective Charm')">Kopiuj Protective Charm</button><br>
+                    <button class="copy-button" onclick="copyText('Metal Spike')">Kopiuj Metal Spike</button><br>
+                    <button class="copy-button" onclick="copyText('Elven Hoof')">Kopiuj Elven Hoof</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Walking Speed</td>
+                <td>
+                    25× Red Cloth<br>
+                    15× Slime Heart<br>
+                    5× Shadow Herb
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Red Cloth')">Kopiuj Red Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Slime Heart')">Kopiuj Slime Heart</button><br>
+                    <button class="copy-button" onclick="copyText('Shadow Herb')">Kopiuj Shadow Herb</button>
+                </td>
+            </tr>
+
+            <!-- Skill Improving Imbuements -->
+            <tr>
+                <td>Distance Fighting</td>
+                <td>
+                    25× Protective Charm<br>
+                    20× Sabretooth<br>
+                    5× Rorc Feather
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Protective Charm')">Kopiuj Protective Charm</button><br>
+                    <button class="copy-button" onclick="copyText('Sabretooth')">Kopiuj Sabretooth</button><br>
+                    <button class="copy-button" onclick="copyText('Rorc Feather')">Kopiuj Rorc Feather</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Club Fighting</td>
+                <td>
+                    25× Elven Astral Observer<br>
+                    15× Sabretooth<br>
+                    5× Cursed Bone
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Elven Astral Observer')">Kopiuj Elven Astral Observer</button><br>
+                    <button class="copy-button" onclick="copyText('Sabretooth')">Kopiuj Sabretooth</button><br>
+                    <button class="copy-button" onclick="copyText('Cursed Bone')">Kopiuj Cursed Bone</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Axe Fighting</td>
+                <td>
+                    25× Elven Hoof<br>
+                    15× Turtle Shell<br>
+                    5× Cursed Bone
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Elven Hoof')">Kopiuj Elven Hoof</button><br>
+                    <button class="copy-button" onclick="copyText('Turtle Shell')">Kopiuj Turtle Shell</button><br>
+                    <button class="copy-button" onclick="copyText('Cursed Bone')">Kopiuj Cursed Bone</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Sword Fighting</td>
+                <td>
+                    25× Elven Scouting Glass<br>
+                    15× Frazzle Skin<br>
+                    5× Cursed Bone
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Elven Scouting Glass')">Kopiuj Elven Scouting Glass</button><br>
+                    <button class="copy-button" onclick="copyText('Frazzle Skin')">Kopiuj Frazzle Skin</button><br>
+                    <button class="copy-button" onclick="copyText('Cursed Bone')">Kopiuj Cursed Bone</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Shielding</td>
+                <td>
+                    20× Turtle Shell<br>
+                    25× Frazzle Skin<br>
+                    5× Deepling Filet
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Turtle Shell')">Kopiuj Turtle Shell</button><br>
+                    <button class="copy-button" onclick="copyText('Frazzle Skin')">Kopiuj Frazzle Skin</button><br>
+                    <button class="copy-button" onclick="copyText('Deepling Filet')">Kopiuj Deepling Filet</button>
+                </td>
+            </tr>
+
+            <!-- Protective Imbuements -->
+            <tr>
+                <td>Death Protection</td>
+                <td>
+                    25× Slime Heart<br>
+                    15× Metal Spike<br>
+                    5× Dragon Claw
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Slime Heart')">Kopiuj Slime Heart</button><br>
+        	    <button class="copy-button" onclick="copyText('Metal Spike')">Kopiuj Metal Spike</button><br>
+                    <button class="copy-button" onclick="copyText('Dragon Claw')">Kopiuj Dragon Claw</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Earth Protection</td>
+                <td>
+                    25× Green Piece of Cloth<br>
+                    15× Turtle Shell<br>
+                    5× Boggy Dreads
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Green Piece of Cloth')">Kopiuj Green Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Turtle Shell')">Kopiuj Turtle Shell</button><br>
+                    <button class="copy-button" onclick="copyText('Boggy Dreads')">Kopiuj Boggy Dreads</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Fire Protection</td>
+                <td>
+                    25× Red Piece of Cloth<br>
+                    15× Protective Charm<br>
+                    5× Blazing Bone
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Red Piece of Cloth')">Kopiuj Red Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Protective Charm')">Kopiuj Protective Charm</button><br>
+                    <button class="copy-button" onclick="copyText('Blazing Bone')">Kopiuj Blazing Bone</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Ice Protection</td>
+                <td>
+                    25× Blue Piece of Cloth<br>
+                    15× Deepling Warts<br>
+                    5× Crystal Pedestal
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Blue Piece of Cloth')">Kopiuj Blue Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Deepling Warts')">Kopiuj Deepling Warts</button><br>
+                    <button class="copy-button" onclick="copyText('Crystal Pedestal')">Kopiuj Crystal Pedestal</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Energy Protection</td>
+                <td>
+                    25× Yellow Piece of Cloth<br>
+                    15× Energy Vein<br>
+                    5× Lightning Legs
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Yellow Piece of Cloth')">Kopiuj Yellow Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Energy Vein')">Kopiuj Energy Vein</button><br>
+                    <button class="copy-button" onclick="copyText('Lightning Legs')">Kopiuj Lightning Legs</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Holy Protection</td>
+                <td>
+                    25× White Piece of Cloth<br>
+                    15× Blessed Wooden Stake<br>
+                    5× Sanctified Orb
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('White Piece of Cloth')">Kopiuj White Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Blessed Wooden Stake')">Kopiuj Blessed Wooden Stake</button><br>
+                    <button class="copy-button" onclick="copyText('Sanctified Orb')">Kopiuj Sanctified Orb</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Paralysis Protection</td>
+                <td>
+                    25× Paralytic Venom<br>
+                    15× Vexclaw Talon<br>
+                    5× Shadow Herb
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Paralytic Venom')">Kopiuj Paralytic Venom</button><br>
+                    <button class="copy-button" onclick="copyText('Vexclaw Talon')">Kopiuj Vexclaw Talon</button><br>
+                    <button class="copy-button" onclick="copyText('Shadow Herb')">Kopiuj Shadow Herb</button>
+                </td>
+            </tr>
+
+            <!-- Elemental Damage Imbuements -->
+            <tr>
+                <td>Death Damage</td>
+                <td>
+                    25× Slime Heart<br>
+                    15× Metal Spike<br>
+                    5× Dragon Claw
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Slime Heart')">Kopiuj Slime Heart</button><br>
+                    <button class="copy-button" onclick="copyText('Metal Spike')">Kopiuj Metal Spike</button><br>
+                    <button class="copy-button" onclick="copyText('Dragon Claw')">Kopiuj Dragon Claw</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Earth Damage</td>
+                <td>
+                    25× Green Piece of Cloth<br>
+                    15× Turtle Shell<br>
+                    5× Boggy Dreads
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Green Piece of Cloth')">Kopiuj Green Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Turtle Shell')">Kopiuj Turtle Shell</button><br>
+                    <button class="copy-button" onclick="copyText('Boggy Dreads')">Kopiuj Boggy Dreads</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Fire Damage</td>
+                <td>
+                    25× Red Piece of Cloth<br>
+                    15× Protective Charm<br>
+                    5× Blazing Bone
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Red Piece of Cloth')">Kopiuj Red Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Protective Charm')">Kopiuj Protective Charm</button><br>
+                    <button class="copy-button" onclick="copyText('Blazing Bone')">Kopiuj Blazing Bone</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Ice Damage</td>
+                <td>
+                    25× Blue Piece of Cloth<br>
+                    15× Deepling Warts<br>
+                    5× Crystal Pedestal
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Blue Piece of Cloth')">Kopiuj Blue Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Deepling Warts')">Kopiuj Deepling Warts</button><br>
+                    <button class="copy-button" onclick="copyText('Crystal Pedestal')">Kopiuj Crystal Pedestal</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Energy Damage</td>
+                <td>
+                    25× Yellow Piece of Cloth<br>
+                    15× Energy Vein<br>
+                    5× Lightning Legs
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Yellow Piece of Cloth')">Kopiuj Yellow Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Energy Vein')">Kopiuj Energy Vein</button><br>
+                    <button class="copy-button" onclick="copyText('Lightning Legs')">Kopiuj Lightning Legs</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Holy Damage</td>
+                <td>
+                    25× White Piece of Cloth<br>
+                    15× Blessed Wooden Stake<br>
+                    5× Sanctified Orb
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('White Piece of Cloth')">Kopiuj White Piece of Cloth</button><br>
+                    <button class="copy-button" onclick="copyText('Blessed Wooden Stake')">Kopiuj Blessed Wooden Stake</button><br>
+                    <button class="copy-button" onclick="copyText('Sanctified Orb')">Kopiuj Sanctified Orb</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Paralysis Damage</td>
+                <td>
+                    25× Paralytic Venom<br>
+                    15× Vexclaw Talon<br>
+                    5× Shadow Herb
+                </td>
+                <td>
+                    <button class="copy-button" onclick="copyText('Paralytic Venom')">Kopiuj Paralytic Venom</button><br>
+                    <button class="copy-button" onclick="copyText('Vexclaw Talon')">Kopiuj Vexclaw Talon</button><br>
+                    <button class="copy-button" onclick="copyText('Shadow Herb')">Kopiuj Shadow Herb</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
